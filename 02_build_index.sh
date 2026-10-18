@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # 1、定义变量(相对路径)
-REF_DIR = "./ref"
-INDEX_DIR = "./ref/index"
-THREADS = 4
+REF_DIR="./ref"
+INDEX_DIR="./ref/index"
+THREADS=4
 
 # 解压下载的GTF格式文件
 if test ! -f "${REF_DIR}/IRGSP-1.0_representative_transcript_exon_2026-02-05.gtf";
